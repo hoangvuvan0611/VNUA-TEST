@@ -25,7 +25,7 @@ jobs:
       with:
         # Checkout toàn bộ repository
         # Nếu muốn checkout repo khác, thêm dòng này
-        repository: 'hoangvuvan0611/VNUA-TEST'
+        # repository: 'hoangvuvan0611/VNUA-TEST'
         fetch-depth: 0
     
     # Bước 2: Cài đặt Java
@@ -77,9 +77,8 @@ jobs:
     - uses: actions/checkout@v3
       with:
         # Nếu muốn checkout repo khác
-        repository: 'hoangvuvan0611/Vnua-Test-Web-Fontend'
+        # repository: 'hoangvuvan0611/Vnua-Test-Web-Fontend'
         fetch-depth: 0
-
     
     # Cài đặt Node.js
     - name: Set up Node
