@@ -35,7 +35,7 @@ jobs:
         # Phiên bản Java
         java-version: '21'
         # Bản phân phối Java
-        distribution: 'amazoncorretto'
+        distribution: 'temurin'
         # Cache Maven để tăng tốc build
         cache: 'maven'
     
